@@ -20,8 +20,8 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 import org.springframework.web.method.annotation.MethodArgumentTypeMismatchException;
 
 import jakarta.servlet.http.HttpServletRequest;
+import ucr.ac.cr.medivault_security_backend.business.SecurityAuditorService;
 import ucr.ac.cr.medivault_security_backend.security.ClientIpResolver;
-import ucr.ac.cr.medivault_security_backend.security.SecurityAuditorService;
 
 @RestControllerAdvice
 public class GlobalSecurityExceptionHandler {

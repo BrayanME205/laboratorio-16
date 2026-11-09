@@ -10,10 +10,10 @@ import org.springframework.web.bind.annotation.RestController;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.validation.Valid;
 import ucr.ac.cr.medivault_security_backend.business.AuthService;
+import ucr.ac.cr.medivault_security_backend.business.SecurityAuditorService;
 import ucr.ac.cr.medivault_security_backend.controller.dto.LoginRequestDto;
 import ucr.ac.cr.medivault_security_backend.controller.dto.LoginResponseDto;
 import ucr.ac.cr.medivault_security_backend.security.ClientIpResolver;
-import ucr.ac.cr.medivault_security_backend.security.SecurityAuditorService;
 
 @RestController
 @RequestMapping("/api/v1/auth")

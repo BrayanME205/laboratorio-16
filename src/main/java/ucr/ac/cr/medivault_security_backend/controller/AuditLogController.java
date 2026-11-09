@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import ucr.ac.cr.medivault_security_backend.business.SecurityAuditorService;
 import ucr.ac.cr.medivault_security_backend.controller.dto.AuditLogResponseDto;
-import ucr.ac.cr.medivault_security_backend.security.SecurityAuditorService;
 
 @RestController
 @RequestMapping("/api/v1/audit-logs")

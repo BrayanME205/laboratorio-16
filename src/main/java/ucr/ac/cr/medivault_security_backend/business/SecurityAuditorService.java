@@ -1,4 +1,4 @@
-package ucr.ac.cr.medivault_security_backend.security;
+package ucr.ac.cr.medivault_security_backend.business;
 
 import java.util.List;
 
